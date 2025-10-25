@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  webpack: (config) => {
-    return config;
-  },
+  /* config options here */
+  reactCompiler: true,
 };
 
 export default nextConfig;
