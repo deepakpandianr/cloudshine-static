@@ -457,7 +457,7 @@ button.accordion-button:focus {
 
 footer {
     background: #333333;
-    padding: 48px;
+    padding: 40px;
 }
 footer p {
     font-size: 20px;
@@ -490,6 +490,16 @@ footer p {
 .video-content div {
     width: 100% !important;
 }
+section.modules-section .head-content h2 {
+        font-size: 40px;
+}
+section.modules-section .head-content h2:before, section.mentor-section .head-content h2:before, section.testimonial-section .head-content h2:before, section.faq-section .head-content h2:before {
+        left: 35%;
+}
+.module-box-content {
+    background: #fff;
+    padding: 40px;
+}
 }
 
 @media only screen and (max-width:991.99px) {
@@ -501,5 +511,73 @@ footer p {
     }
     .header-btn {
     display: none;
+}
+.mentor-content {
+    padding-left: 0;
+}
+.mentor-content h3 {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399.99px) {
+    .banner h1 {
+    font-size: 48px;
+    line-height: 58px;
+}
+.banner-content p {
+    font-size: 20px;
+    line-height: 34px;
+    color: #000;
+}
+.banner-content .icon-box-content p {
+        font-size: 20px;
+}
+.module-box-content {
+    padding: 40px;
+}
+h4.module-h4 {
+    font-size: 24px;
+    line-height: 36px;
+}
+p.module-p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.module-inner-content li {
+    font-size: 18px;
+    line-height: 30px;
+}
+}
+
+@media only screen and (min-width:1400px) and (max-width:1599.99px) {
+    .banner h1 {
+            font-size: 55px;
+        line-height: 70px;
+}
+.banner-content p {
+            font-size: 23px;
+        line-height: 37px;
+    color: #000;
+}
+.banner-content .icon-box-content p {
+                font-size: 25px;
+}
+.module-box-content {
+    padding: 40px;
+}
+h4.module-h4 {
+            font-size: 26px;
+        line-height: 40px;
+}
+p.module-p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.module-inner-content li {
+    font-size: 18px;
+    line-height: 30px;
 }
 }
