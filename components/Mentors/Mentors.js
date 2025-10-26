@@ -2,7 +2,7 @@ import React from "react";
 
 const Mentor = () => {
   return (
-    <section className="mentor-section">
+    <section className="mentor-section"  id="mentors">
       <div className="container">
         <div className="heading">
           <div className="head-content">
