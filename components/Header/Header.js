@@ -31,16 +31,16 @@ export default function Header(props) {
           <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#Modules">Modules</a>
+                <a className="nav-link" href="#modules">Modules</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Mentors">Mentors</a>
+                <a className="nav-link" href="#mentors">Mentors</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Testimonials">Testimonials</a>
+                <a className="nav-link" href="#testimonials">Testimonials</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#FAQs">FAQs</a>
+                <a className="nav-link" href="#faqs">FAQs</a>
               </li>
             </ul>
           </div>
