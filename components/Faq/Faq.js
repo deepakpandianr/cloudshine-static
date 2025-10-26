@@ -2,7 +2,7 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <section className="faq-section">
+    <section className="faq-section" id="faqs">
       <div className="container">
         <div className="heading">
           <div className="head-content">
