@@ -11,7 +11,7 @@ const Mentor = () => {
         </div>
 
         <div className="row align-items-center">
-          <div className="col-lg-4">
+          <div className="col-lg-4 md-mb-30">
             <div className="num-box mb-40">
               <h5>18+</h5>
               <p>Years of Experience</p>
