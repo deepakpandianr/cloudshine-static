@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 
 const Testimonial = () => {
   return (
-    <section className="testimonial-section">
+    <section className="testimonial-section" id="testimonials">
       <div className="container">
         <div className="heading">
           <div className="head-content">
