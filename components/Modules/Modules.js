@@ -4,7 +4,7 @@ import check from "@/public/images/icon/check.webp"
 
 const Modules = () => {
     return (
-        <section className="modules-section">
+        <section className="modules-section" id="modules">
             <div className="container">
                 <div className="heading">
                     <div className="head-content">
